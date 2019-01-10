@@ -335,10 +335,11 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libcnefeatureconfig \
     libxml2 \
-    ims-ext-common
+    ims-ext-common \
+    telephony-ext
 
 PRODUCT_BOOT_JARS += \
-    qti-telephony-common
+    telephony-ext
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
