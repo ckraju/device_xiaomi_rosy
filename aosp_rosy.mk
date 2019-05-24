@@ -24,8 +24,8 @@ $(call inherit-product, device/xiaomi/rosy/device.mk)
 # Add Miui 10 Camera
 $(call inherit-product, vendor/xiaomi/MiuiCamera/rosy.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit CAF stuffs
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Pixel Experience changes
 TARGET_BOOT_ANIMATION_RES := 720
