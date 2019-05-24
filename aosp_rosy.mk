@@ -18,6 +18,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+export CUSTOM_BUILD_TYPE=OFFICIAL
+include device/qcom/common/common.mk
+
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
