@@ -16,11 +16,5 @@
       "branch":"pie-test",
       "repository":"PixelExperience-Devices/vendor_xiaomi_rosy",
       "target_path":"vendor/xiaomi"
-   },
-   {
-      "remote":"gitlab",
-      "branch":"8.x",
-      "repository":"pshreejoy15/toolchain",
-      "target_path":"vendor/xiaomi/gcc"
    }
 ]
