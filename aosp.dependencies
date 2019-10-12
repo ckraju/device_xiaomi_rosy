@@ -8,12 +8,12 @@
    {
       "remote":"github",
       "branch":"pie",
-      "repository":"Sukrut4778/kernel_xiaomi_rosy",
+      "repository":"shreejoy/kernel_xiaomi_rosy",
       "target_path":"kernel/xiaomi/msm8953"
    },
    {
       "remote":"github",
-      "branch":"pie-test",
+      "branch":"ten",
       "repository":"PixelExperience-Devices/vendor_xiaomi_rosy",
       "target_path":"vendor/xiaomi"
    }
