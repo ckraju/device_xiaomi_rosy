@@ -48,5 +48,5 @@
 /sys/devices/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/enable_dt2w		u:object_r:proc_touchpanel:s0
 
 # Firmware
-/firmware                                                     u:object_r:firmware_file:s0
-/bt_firmware                                                  u:object_r:bt_firmware_file:s0
+/firmware(/.*)?                                                     u:object_r:firmware_file:s0
+/bt_firmware                                                   u:object_r:bt_firmware_file:s0
